@@ -1,0 +1,16 @@
+SETUP
+=====
+1.  Install MYSQL, Workbench and Connector/J.
+2.  Create a Database [Schema]
+3.  Add a Table with multiple columns
+4.  Insert Data in two rows of table [Manually for now].
+
+
+JAVA CODING [ASSIGNMENT-1]
+==========================
+1.  Write Code that connects to Database created during setup
+2.  Read rows and print them line by line. [SELECT]
+3.  Write code to add a new record into the database [INSERT]
+4.  Write code to read a large file that contains data of various columns for our table and all the data should be pushed into the dtabase.
+
+

@@ -1,0 +1,32 @@
+1.  Make Sure that Git is Installed On Your machine.
+
+CLONE REPOSITORY
+================
+2.  Open Command Prompt and Run following command to Setup your directory to sync with online repository
+    SYNTAX
+	> git clone <URL>
+	
+    EXAMPLE
+	> git clone https://github.com/sandeepsajiru/onlineexam.git
+3.  Change directory to onlineexam
+    > cd onlineexam
+4.  Create a folder of your own name
+    > md user
+5.  Change directory to your folder
+    > cd user
+6.  Create a dummy file - 'ReadMe.txt'
+    > notepad ReadMe.txt
+7.  Save the file and close notepad
+
+MAKE YOUR FIRST CHECKIN
+========================
+8.  Add your new files to Staging Area [To let git know that you want to check them in]
+    git add -A
+9.  Check that your files are added using following command
+    git status
+
+10.  Check-In the Changes
+    git commit -m "First Checkin"
+11.  Push your changes to online respository
+    git push
+    This will ask for your username/password of git.  Provide that and you are done.
